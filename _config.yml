@@ -21,7 +21,7 @@
 title: David Day 
 email: david.day2017@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
-  A website by David Day.
+  A collection of projects and posts related to software, electronics, and life. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: daviddayy_ 
@@ -31,12 +31,17 @@ github_username:  davidday99
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: "_posts"
+    values:
+      permalink: /blog/:categories/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
