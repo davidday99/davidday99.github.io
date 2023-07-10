@@ -3,9 +3,9 @@ layout: post
 title:  "Is it POSIX?"
 ---
 
-Sometimes I hear the phrase, "Is it Posix?" referring to whether some OS feature or program is 
+You occasionally hear the phrase, "Is it Posix?" referring to whether some OS feature or program is 
 POSIX-compliant. The first time I heard it was in college. At that time, I had never even 
-heard of POSIX.
+heard of POSIX before.
 
 Later I came across some Stack Overflow answers 
 [here](https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/11996#11996) and
