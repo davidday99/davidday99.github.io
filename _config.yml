@@ -42,6 +42,10 @@ defaults:
       path: "_posts"
     values:
       permalink: /blog/:categories/:title
+  - scope:
+      path: "projects/"
+    values:
+      exclude: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
