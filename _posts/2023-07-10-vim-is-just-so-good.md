@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim is So Good"
+title: "Vim is Just So Good"
 ---
 
 Sometimes I question whether Vim is really as good as people make it out to be, 
