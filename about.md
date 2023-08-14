@@ -15,8 +15,6 @@ Hi, I'm David Day. I'm a computer engineer living in Austin, Texas. I'm into low
 especially the kind related to operating system kernels and network protocols. 
 </p>
 <p>
-Right now I'm learning how to build single-board computers. 
-Check out the <a href="/projects">Projects</a> page for a comprehensive list of all my projects.
- 
+Check out the <a href="/projects">Projects</a> page for a (WIP) list of my projects.
 </p>
 </div>
