@@ -80,7 +80,7 @@ Chip drivers implement the `BaseChip` interface, which includes `read`, `write`,
 Additional chip-specific methods can be adde to the class.
 For example, some chips support software-enabled protection or have status registers that can be queried.
 
-## Minimizing the Command Set
+## A Robust Command Set
 
 When it came to the protocol command set, I racked my brain for quite a while trying to 
 decide on the minimum functionality necessary to enable programming any kind of parallel or SPI chip
