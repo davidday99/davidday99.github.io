@@ -35,6 +35,21 @@ Or to read the contents of an Atmel 28C256 parallel EEPROM into `output.bin`:
 $ python -m openeeprom read --file output.bin --chip AT28C256 --serial /dev/ttyACM0:115200
 ```
 
+You can also import the `openeeprom` package directly:
+
+
+```
+from openeeprom.transport import SerialTransport
+from openeeprom.client import OpenEEPROMClient
+from openeeprom.chip import AT28C256
+
+client = OpenEEPROMClient(SerialTransport(port='/dev/ttyACM0', baud_rate=115200))
+chip = AT28C256()
+chip.connect(client)
+
+contents = chip.read(0, chip.size)
+```
+
 The OpenEEPROM protocol command set enables you to write your individual chip drivers on the 
 host side in a high-level language such as Python, shifting the effort away from the firmware/embedded side.
 
