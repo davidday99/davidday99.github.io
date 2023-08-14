@@ -90,9 +90,9 @@ across chips.
 For SPI, this is pretty straight forward. Every chip has essentially the same physical interface. It boils down to 
 three main considerations:
 
-    1. SPI clock frequency.
-    2. SPI mode.
-    3. Chip-specific commands (e.g, the first byte you transmit is a command byte).
+1. SPI clock frequency.
+2. SPI mode.
+3. Chip-specific commands (e.g, the first byte you transmit is a command byte).
 
 Point 1 is straight forward. Have a command for setting the frequency. Done.
 
