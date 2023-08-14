@@ -200,3 +200,5 @@ There are lots of improvements/features to be made. The few that stick out to me
 There's certainly enough here to keep me busy, but I think it's about time I get back
 to my 6502 SBC project.
 
+View the OpenEEPROM source [here](https://github.com/davidday99/open-eeprom).
+
